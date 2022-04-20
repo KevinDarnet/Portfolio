@@ -1,0 +1,584 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
+
+body {
+  color: white;
+  font-family: monospace;
+  width: 98%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  background-size: cover;
+  background-color: #360027;
+}
+html {
+  width: 100%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+select {
+  margin-left: 2rem;
+  border-radius: 1rem;
+  width: 10rem;
+  height: 1.8rem;
+}
+
+/* CONTENEDOR DE LOS BOTONES DE INICIO, REGISTRO, ETC */
+.contenedornav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+  border-width: 1px;
+  border-radius: 2rem;
+  width: 80vw;
+  height: 7vh;
+  background-color: rgb(93, 0, 71);
+  box-shadow: 7px 13px 37px #000;
+}
+
+.Menúmodal {
+  visibility: hidden;
+}
+
+.navbar {
+  display: flex;
+}
+
+/* ESTILO DE BOTONES DEL NAV */
+a {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-evenly;
+  color: white;
+  width: auto;
+  text-decoration: none;
+  height: 1.5rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: rgb(93, 0, 71);
+}
+.buttoncard {
+  width: 7rem;
+}
+
+.buttoncard:hover {
+  width: 7rem;
+  background-color: 99006e;
+  background-size: cover;
+}
+.divanchor {
+  display: flex;
+  justify-content: center;
+}
+
+a:hover {
+  width: auto;
+  background-color: #99006e;
+  background-size: cover;
+}
+
+#boton {
+  margin-left: 2rem;
+  background-color: rgb(71, 0, 119);
+  color: rgb(255, 255, 255);
+}
+/* CONTENEDOR DEL TITULO Y EL LOGO DEL HEADER */
+.conteinertituloheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 35vh;
+}
+
+/* IMAGEN DEL LOGO DEL HEADER */
+.logo {
+  width: 5rem;
+  height: 5rem;
+}
+
+/* TITULO DEL HEADER */
+.amazingevents {
+  margin-left: 5rem;
+  font-size: 4rem;
+}
+/* Titulo por encima de los próximos eventos */
+.titulosection {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* FORMULARIO DE REGISTRO */
+
+.form-register {
+  width: 50%;
+  background: rgb(83, 0, 60);
+  padding: 5rem;
+  margin: auto;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 1.5rem;
+}
+.botons {
+  background: rgb(83, 0, 60);
+}
+.controls {
+  width: 100%;
+  background: rgb(32, 0, 24);
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid rgb(83, 0, 60);
+  font-family: "calibri";
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+.contenedorterminos {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+}
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: rgb(58, 0, 41);
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 1rem;
+  font-size: 1rem;
+}
+
+table {
+  border-style: solid;
+  border-color: #1b0018;
+  padding: 1rem;
+  background-color: rgb(226, 226, 226);
+  border-radius: 1rem;
+}
+tr {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+th {
+  padding: 1rem;
+  border-style: solid;
+  border-color: rgb(226, 226, 226);
+  border-radius: 0.5rem;
+}
+td {
+  padding: 1rem;
+  border-style: solid;
+  border-color: rgb(226, 226, 226);
+  border-radius: 0.5rem;
+}
+.card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+  display: flex;
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 3rem;
+  width: 100%;
+  height: 40%;
+  z-index: 70;
+  background-image: url(./Imagenes/Fondobody.png);
+  box-shadow: 7px 13px 37px #000;
+}
+
+/* CONTENEDOR DE LOS PROXIMOS EVENTOS. TIENE IMAGENES Y TEXTO */
+.contendorcard {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80vw;
+  height: auto;
+  z-index: 70;
+}
+/* IMAGEN DE LOS PROXIMOS EVENTOS */
+.imgcard {
+  margin-top: 1.3rem;
+  height: 90%;
+  width: 90%;
+  border-radius: 2rem;
+}
+.cardinterno {
+  padding: 3rem;
+  width: 50%;
+}
+.cardinterno2 {
+  width: 50%;
+  height: 50%;
+}
+
+/* TEXTOS DE LAS CARDS, H2 Y P */
+h2 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+p {
+  font-size: 1.5rem;
+}
+
+.conteinersearch {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 1rem;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 1040px) and (min-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contendorcard {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 3rem;
+    width: 80vw;
+    height: auto;
+    z-index: 70;
+  }
+  .cardinterno {
+    width: 90%;
+  }
+  .cardinterno2 {
+    width: 90%;
+    height: 50%;
+  }
+  .navbar {
+    display: flex;
+  }
+
+  .contenedornav {
+    border-width: 1px;
+    border-radius: 2rem;
+    width: 100%;
+    height: 5vh;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 370px) {
+  header {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .conteinertituloheader {
+    height: 15rem;
+    width: 60%;
+  }
+
+  .divmodal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .Menúmodal {
+    margin-right: 3rem;
+    width: 100%;
+    visibility: visible;
+  }
+
+  .Menúmodal:hover {
+    margin-right: 3rem;
+    width: 100%;
+    visibility: visible;
+  }
+
+  .contenedornav {
+    visibility: hidden;
+  }
+  nav {
+    visibility: hidden;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedornav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+    border-width: 1px;
+    border-radius: 2rem;
+    width: 80vw;
+    height: 3vh;
+  }
+  .conteinersearch {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  .contendorcard {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 3rem;
+    width: 100%;
+    height: auto;
+    z-index: 70;
+  }
+  .card {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3rem;
+    width: 80%;
+    height: auto;
+    z-index: 70;
+    background-image: url(./Imagenes/Fondobody.png);
+    margin-bottom: 4rem;
+  }
+  .titulosection {
+    padding-bottom: 2.5rem;
+    font-size: 1.3rem;
+  }
+  h2 {
+    padding: 0;
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .contenedornav {
+    border-width: 1px;
+    border-radius: 2rem;
+    width: 100%;
+    height: 5vh;
+  }
+  .amazingevents {
+    font-size: 2.4rem;
+    margin-left: 1rem;
+  }
+  .logo {
+    width: 3rem;
+    height: 3rem;
+  }
+  .imgcard {
+    width: 100%;
+    border-radius: 2rem;
+    object-fit: contain;
+  }
+  .cardinterno {
+    width: 90%;
+  }
+  .cardinterno2 {
+    width: 90%;
+    height: 50%;
+  }
+  footer {
+    font-size: 0.7rem;
+  }
+}
+
+.burbuja {
+  border-radius: 50%;
+  background: rgba(170, 169, 169, 0.746);
+  opacity: 0.3;
+
+  position: absolute;
+  bottom: -150;
+
+  animation: burbujas 3s linear infinite;
+  z-index: 100;
+}
+
+.burbuja:nth-child(1) {
+  width: 80px;
+  height: 80px;
+  left: 5%;
+  animation-duration: 3s;
+  animation-delay: 3s;
+}
+
+.burbuja:nth-child(2) {
+  width: 100px;
+  height: 100px;
+  left: 35%;
+  animation-duration: 3s;
+  animation-delay: 5s;
+}
+
+.burbuja:nth-child(3) {
+  width: 20px;
+  height: 20px;
+  left: 15%;
+  animation-duration: 1.5s;
+  animation-delay: 7s;
+}
+
+.burbuja:nth-child(4) {
+  width: 50px;
+  height: 50px;
+  left: 90%;
+  animation-duration: 6s;
+  animation-delay: 3s;
+}
+
+.burbuja:nth-child(5) {
+  width: 70px;
+  height: 70px;
+  left: 65%;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+
+.burbuja:nth-child(6) {
+  width: 20px;
+  height: 20px;
+  left: 50%;
+  animation-duration: 4s;
+  animation-delay: 5s;
+}
+
+.burbuja:nth-child(7) {
+  width: 20px;
+  height: 20px;
+  left: 50%;
+  animation-duration: 4s;
+  animation-delay: 5s;
+}
+
+.burbuja:nth-child(8) {
+  width: 100;
+  height: 100px;
+  left: 52%;
+  animation-duration: 5s;
+  animation-delay: 5s;
+}
+
+.burbuja:nth-child(9) {
+  width: 65px;
+  height: 65px;
+  left: 51%;
+  animation-duration: 3s;
+  animation-delay: 2s;
+}
+
+.burbuja:nth-child(10) {
+  width: 40px;
+  height: 40px;
+  left: 35%;
+  animation-duration: 3s;
+  animation-delay: 4s;
+}
+
+@keyframes burbujas {
+  0% {
+    bottom: 0;
+    opacity: 0;
+  }
+  30% {
+    transform: translateX(30px);
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    bottom: 100vh;
+    opacity: 0;
+  }
+}
+
+@keyframes movimiento {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.modal-contenido {
+  background-color: 95006b46;
+  width: 70%;
+  height: 100%;
+  padding: 10px 2rem;
+  margin: 20% auto;
+  position: relative;
+}
+.modal {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+#miModal:target {
+  opacity: 1;
+  pointer-events: auto;
+}

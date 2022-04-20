@@ -1,0 +1,88 @@
+const database = 'MyTinerary';
+
+use(database);
+
+db.itinerarios.insertMany([
+  
+    {"image": "https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/article/,61a0a6785bafe84d6e827bfb/gran-muralla-china_0.jpg",
+  "name": "Great Wall of China",
+  "userimage": "https://images.pexels.com/photos/6292455/pexels-photo-6292455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "username":"Iwao Komiyama" ,
+  "details": "Few cities in the world have served for so long as the political headquarters and cultural centre of an area as immense as China.",
+  "price": "4",
+  "duration": "2",
+  "hashtag":["#Pekin",
+    "#greatwall"],
+    "flag": "https://media.istockphoto.com/photos/china-flag-a-series-of-flags-of-the-world-picture-id878587072?k=20&m=878587072&s=612x612&w=0&h=5cTiuSjsJbOeZfwj3OnTiaLVVqCJnha1Q6ikf_wKFoE=",
+  "likes": "",
+  "activities": "",
+  "comments": "",
+  "cityId": ""
+}
+{"image": "https://image.arrivalguides.com/1230x800/19/30d05a00042421ee0944b72588a955e3.jpg",
+  "name": "Yonghe Temple",
+  "userimage": "https://images.pexels.com/photos/3778603/pexels-photo-3778603.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "username":"Ramon Garcia" ,
+  "details": "Visit to Yonghe Temple. One of the greatest buddhist praying temples.",
+  "price": "2",
+  "duration": "1.5h",
+  "hashtag":[  "#YongheTemple",
+    "#Pekin"],
+    "flag": "https://media.istockphoto.com/photos/china-flag-a-series-of-flags-of-the-world-picture-id878587072?k=20&m=878587072&s=612x612&w=0&h=5cTiuSjsJbOeZfwj3OnTiaLVVqCJnha1Q6ikf_wKFoE=",
+  "likes": "",
+  "activities": "",
+  "comments": "",
+  "cityId": ""
+},
+{"image": "https://as2.ftcdn.net/v2/jpg/02/62/48/69/1000_F_262486969_d2hToAZvZFUBNu2u9B3D0q9BbxJNcNU6.jpg"
+  "name": "Pyramid of Khafre"
+  "userimage": "https://images.pexels.com/photos/3872246/pexels-photo-3872246.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  "username":"Lujan Rodriguez" 
+  "details": "Built by Khufu's son Khafre, it at first appears to be larger than his father's earlier pyramid as it stands on a higher piece of land. A considerable section of the original limestone casing has managed to be preserved on the apex of the pyramid."
+  "price": "5"
+  "duration": "5h"
+  "hashtag":["#Chephren",
+    "#Pyramid"]
+    "flag": "data:image/jpeg;base64,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"",
+  "likes": ""
+  "activities": ""
+  "comments": ""
+  "cityId": "",
+},
+{"image": "https://www.planetware.com/photos-large/EGY/egypt-pyramids-of-giza-solar-boat-museum.jpg"
+  "name": "Solar Boat Museum"
+  "username":"James Rodriguez" 
+  "details": "Excavations on the south and east sides of the Pyramid of Cheops in 1954 brought to light five long cavities for boats, with a Solar Barque broken into more than a thousand pieces as a votive offering."
+  "price": "2"
+  "duration": "1.5h"
+  "hashtag":["#Solarboatmuseum","#Guiza"]
+  "likes": ""
+  "activities": ""
+  "comments": ""
+  "cityId": "",
+},
+{"image": "https://www.planetware.com/photos-large/EGY/egypt-pyramids-of-giza-solar-boat-museum.jpg"
+  "name": "Solar Boat Museum"
+  "username":"James Rodriguez" 
+  "details": "Excavations on the south and east sides of the Pyramid of Cheops in 1954 brought to light five long cavities for boats, with a Solar Barque broken into more than a thousand pieces as a votive offering."
+  "price": "2"
+  "duration": "1.5h"
+  "hashtag":["#Solarboatmuseum","#Guiza"]
+  "likes": ""
+  "activities": ""
+  "comments": ""
+  "cityId": "",
+}.{"image": "https://www.planetware.com/photos-large/EGY/egypt-pyramids-of-giza-solar-boat-museum.jpg"
+  "name": "Solar Boat Museum"
+  "username":"James Rodriguez" 
+  "details": "Excavations on the south and east sides of the Pyramid of Cheops in 1954 brought to light five long cavities for boats, with a Solar Barque broken into more than a thousand pieces as a votive offering."
+  "price": "2"
+  "duration": "1.5h"
+  "hashtag":["#Solarboatmuseum","#Guiza"]
+  "likes": ""
+  "activities": ""
+  "comments": ""
+  "cityId": "",
+}
+]);
+

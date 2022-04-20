@@ -1,0 +1,137 @@
+
+ const dataBase = "MyTinerary"
+use(dataBase)
+
+db.ciudades.drop();
+db.ciudades.insertMany([
+ 
+   {
+    "image":"https://drscdn.500px.org/photo/1001346056/m%3D900/v2?sig=b83869c3314f8ec210ee18d64a9d7adf9c361147094b75ba78ba4941b9ee3f3d",
+    "city": "Pekin",
+    "description": "The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states. It is the longest structure humans have ever built. It is about 21,196 kilometers long, 9.1 metres (30 feet) wide and 15 metres high.",
+    "country": "China",
+    "coin": "Renminbi",
+    "language": "Mandarin"
+  },
+  {
+    "image":"https://tipsparatuviaje.com/wp-content/uploads/2019/08/gran-piramide-de-guiza-egipto.jpg",
+    "city": "Giza",
+    "description": "The Great Pyramid of Giza (also known as the Pyramid of Khufu or the Pyramid of Cheops) is the oldest and largest of the pyramids in the Giza pyramid complex bordering present-day Giza in Greater Cairo, Egypt. It is the oldest of the Seven Wonders of the Ancient World, and the only one to remain largely intact.",
+    "country": "Egypt",
+    "coin": "Egyptian pound",
+    "language": "Arab"
+  },
+  {
+    "image":"https://tipsparatuviaje.com/wp-content/uploads/2019/08/gran-palacio-de-bangkok-tailandia.jpg",
+    "city": "Bangkok",
+    "description": "The Grand Palace (Thai: พระบรมมหาราชวัง, RTGS: Phra Borom Maha Ratcha Wang) is a complex of buildings at the heart of Bangkok, Thailand. The palace has been the official residence of the Kings of Siam (and later Thailand) since 1782.",
+    "country": "Thailand",
+    "coin": "Baht",
+    "language": "Thai"
+  },
+  {
+    "image":"https://tipsparatuviaje.com/wp-content/uploads/2019/08/monte-fuji-japon.jpg",
+    "city": "Fuji",
+    "description": "Rising to 12,388 feet (3,776 metres), Mount Fuji is the tallest mountain in Japan and is known for its graceful conical form. It is the country's sacred symbol, and temples and shrines are located around and on the volcano.",
+    "country": "Japan",
+    "coin": "Yen",
+    "language": "Japanese"
+  },
+  {
+    "image":"https://tipsparatuviaje.com/wp-content/uploads/2019/08/castillo-de-neuschwanstein-baviera-alemania.jpg",
+    "city": "Neuschwanstein",
+    "description": "Neuschwanstein Castle, German Schloss Neuschwanstein, elaborate castle near Füssen, Germany, built atop a rock ledge over the Pöllat Gorge in the Bavarian Alps by order of Bavaria's King Louis II (“Mad King Ludwig”). Construction began in 1868 and was never completed.",
+    "country": "Germany",
+    "coin": "Euro",
+    "language": "German"
+  },
+  {
+    "image":"https://tipsparatuviaje.com/wp-content/uploads/2019/08/coliseo-roma-italia.jpg",
+    "city": "Roma",
+    "description": "What is the Colosseum? The Colosseum is an amphitheatre built in Rome under the Flavian emperors of the Roman Empire. It is also called the Flavian Amphitheatre. It is an elliptical structure made of stone, concrete, and tuff, and it stands four stories tall at its highest point.",
+    "country": "Italy",
+    "coin": "Euro",
+    "language": "Italian"
+  },
+  {
+    "image":"https://tipsparatuviaje.com/wp-content/uploads/2019/08/chichen-itza-yucatan-mexico.jpg",
+    "city": "Chichén Itzá",
+    "description": "Chichén Itzá, ruined ancient Maya city occupying an area of 4 square miles (10 square km) in south-central Yucatán state, Mexico. It is thought to have been a religious, military, political, and commercial centre that at its peak would have been home to 35,000 people.",
+    "country": "Mexico",
+    "coin": "Mexican pesos",
+    "language": "Spanish"
+  },
+  {
+    "image":"https://tipsparatuviaje.com/wp-content/uploads/2019/08/santa-sofia-estambul-turquia.jpg",
+    "city": "Instanbul",
+    "description": "Hagia Sophia, Turkish Ayasofya, Latin Sancta Sophia, also called Church of the Holy Wisdom or Church of the Divine Wisdom, an important Byzantine structure in Istanbul and one of the world’s great monuments. It was built as a Christian church in the 6th century CE (532–537) under the direction of the Byzantine emperor Justinian I. In subsequent centuries it became a mosque, a museum, and a mosque again. The building reflects the religious changes that have played out in the region over the centuries, with the minarets and inscriptions of Islam as well as the lavish mosaics of Christianity.",
+    "country": "Turkey",
+    "coin": "Turkish Lira",
+    "language": "Turkish"
+
+  },
+  {
+    "image":"https://tipsparatuviaje.com/wp-content/uploads/2019/08/gyeongbokgung-seul-corea-del-sur.jpg",
+    "city": "Seoul",
+    "description": "Originally built in 1395, Gyeongbokgung Palace is the largest and greatest of Seoul’s Five Grand Palaces. Burned down during the Japanese invasion of 1592, it was reconstructed in 1867. Today, the palace grounds, filled with lotus ponds, gardens, and ornate statues, offer a lovely place to spend the afternoon. Don’t miss the Throne Hall, the Royal Banquet Hall, and Hyangwonjeong, a two-story pavilion on a small island in the center of a pond. And remember to stand under the palace roof and look up—you’ll be dazzled by the intricate patterns of red, blue, and green painted on the eaves.",
+    "country": "South Korea",
+    "coin": "Won",
+    "language": "Korean "
+
+  },
+  {
+    "image":"https://tipsparatuviaje.com/wp-content/uploads/2019/08/borobudur-java-indonesia.jpg",
+    "city": "Java",
+    "description": "This famous Buddhist temple, dating from the 8th and 9th centuries, is located in central Java. It was built in three tiers: a pyramidal base with five concentric square terraces, the trunk of a cone with three circular platforms and, at the top, a monumental stupa. The walls and balustrades are decorated with fine low reliefs, covering a total surface area of 2,500 m2. Around the circular platforms are 72 openwork stupas, each containing a statue of the Buddha. The monument was restored with UNESCO's help in the 1970s.",
+    "country": "Indonesia",
+    "coin": "Rupia",
+    "language": "Indonesian"
+
+  },
+  {
+    "image":"https://tipsparatuviaje.com/wp-content/uploads/2019/08/kilimanjaro-tanzania.jpg",
+    "city": "Kilimanjaro",
+    "description": "Mount Kilimanjaro is the tallest mountain on the African continent and the highest free-standing mountain in the world. 9. Kilimanjaro has three volcanic cones, Mawenzi, Shira and Kibo. Mawenzi and Shira are extinct but Kibo, the highest peak, is dormant and could erupt again.",
+    "country": "Tanzania",
+    "coin": "Chelín",
+    "language": "Swahili"
+
+  },
+  {
+    "image":"https://tipsparatuviaje.com/wp-content/uploads/2019/08/cataratas-de-iguazu-argentina-y-brasil.jpg",
+    "city": "Iguaçu Falls",
+    "description": "Iguaçu Falls, Iguaçu also spelled Iguassú, Spanish Cataratas del Iguazú, Portuguese Cataratas do Iguaçu or Saltos do Iguaçu, series of cataracts on the Iguaçu River, 14 miles (23 km) above its confluence with the Alto (Upper) Paraná River, at the Argentina-Brazil border. The falls resemble an elongated horseshoe that extends for 1.7 miles (2.7 km)—nearly three times wider than Niagara Falls in North America and significantly greater than the width of Victoria Falls in Africa. Numerous rocky and wooded islands on the edge of the escarpment over which the Iguaçu River plunges divide the falls into some 275 separate waterfalls or cataracts, varying between 200 and 269 feet (60 and 82 metres) in height. The name of the falls, like that of the river, is derived from a Guaraní word meaning “great water.”",
+    "country": "Argentina",
+    "coin": "Argentine pesos",
+    "language": "Spanish"
+
+  },
+  {
+    "image":"https://tipsparatuviaje.com/wp-content/uploads/2019/08/stonehenge-amesbury-inglaterra.jpg",
+    "city": "Machu Picchu",
+    "description": "Machu Picchu , Ancient fortress city of the Incas in the Andes Mountains, south-central Peru. Perched near Cuzco in a narrow saddle between two sharp peaks, at an elevation of 7,710 ft (2,350 m), it escaped detection by the Spaniards, and its existence was made known only in 1911 by U.S. explorer Hiram Bingham.",
+    "country": "Peru",
+    "coin": "Peruvian Sol",
+    "language": "Spanish"
+
+  },
+  {
+    
+    "image":"https://tipsparatuviaje.com/wp-content/uploads/2019/08/acropolis-atenas-grecia.jpg",
+    "city": "Acropolis",
+    "description": "The Acropolis of Athens is one of the most famous ancient archaeological sites in the world. Located on a limestone hill high above Athens, Greece, the Acropolis has been inhabited since prehistoric times.",
+    "country": "Greece",
+    "coin": "Euro",
+    "language": "Greek"
+
+  },
+  {
+    
+    "image":"https://tipsparatuviaje.com/wp-content/uploads/2019/08/taj-mahal-agra-india.jpg",
+    "city": "Taj Mahal",
+    "description": "An immense mausoleum of white marble, built in Agra between 1631 and 1648 by order of the Mughal emperor Shah Jahan in memory of his favourite wife, the Taj Mahal is the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage.",
+    "country": "India",
+    "coin": "Rupia",
+    "language": "Hindi"
+  }
+]); 

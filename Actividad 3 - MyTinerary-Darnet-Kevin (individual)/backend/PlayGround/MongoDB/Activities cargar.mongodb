@@ -1,0 +1,80 @@
+const database = 'MyTinerary';
+
+use(database);
+
+db.activities.insertMany([
+  {
+"image": "https://www.chinadiscovery.com/assets/images/beijing/simatai-great-wall/simatai-great-wall-at-night-768.jpg",
+"name": "Hike on the Great Wall at Night",
+"description": "You may have seen beautiful pictures of the Great Wall below blue sky and white clouds. But have you seen Great Wall glowing at night?",
+"itineraryId": "62285659fdba39406f642aa6"
+    },
+    {
+"image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/88/bf/d8.jpg",
+"name": "Take a Roller Coaster Cart Down from the Great Wall",
+"description": "The Great Wall was built on mountain ridges. So, to reach the wall, you will usually need to hike up mountain paths for about 1 hour, and you will also need to hike down.",
+"itineraryId": "62285659fdba39406f642aa6"
+    },
+    {
+"image": "https://images.zeald.com/site/marathons/images/chinamarathon3-973.jpg",
+"name": "The Huangyaguan Great Wall Marathon",
+"description": "The Huangyaguan Marathon was first held in 1999, and has become very popular for its challenging route, stunning Great Wall scenery, and quiet Chinese villages. It's one of the 10 coolest marathon routes. It attracts runners from all over the world.",
+"itineraryId": "62285659fdba39406f642aa6"
+    },
+    {
+"image": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/40000/40972-Forbidden-City.jpg?impolicy=fcrop&w=1040&h=580&q=mediumHigh",
+"name": "Forbidden City",
+"description": "This once restricted imperial palace is today a public showcasing the splendor of ancient China. It is one of the most impressive places in Beijing.",
+"itineraryId": "62285659fdba39406f642aa7"
+    },
+    {
+"image": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/40000/40989-Tiananmen-Square.jpg?impolicy=fcrop&w=1040&h=580&q=mediumHigh",
+"name": "Tiananmen Square",
+"description": "This place is one of the most famous squares in the world and the very heart of Beijing. It has always been the site of mass protests and national celebrations.",
+"itineraryId": "62285659fdba39406f642aa7"
+    },
+    {
+"image": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/41000/41019-Temple-Of-Heaven.jpg?impolicy=fcrop&w=1040&h=580&q=mediumHigh",
+"name": "Heaven Temple",
+"description": "Behind a high wall is an ancient building once used for sacrifices. This huge, historic place of worship is a tranquil oasis in the middle of Beijing.",
+"itineraryId": "62285659fdba39406f642aa7"
+    },
+    {
+"image": "https://egymonuments.gov.eg/media/2892/sc9621.jpg",
+"name": "The burial chamber of the pyramid of Kafre",
+"description": "Giza Plateau",
+"itineraryId": "62285659fdba39406f642aa8"
+    },
+      {
+"image": "https://egymonuments.gov.eg/media/2893/_dsc2475.jpg",
+"name": "The room with the pointed ceiling.",
+"description": "The Pyramid of King Khafre",
+"itineraryId": "62285659fdba39406f642aa8"
+    },
+      {
+"image": "https://egymonuments.gov.eg/media/3412/khafra-hamdy.jpg",
+"name": "The top of the pyramid of Khafre",
+"description": "Giza Plateau",
+"itineraryId": "62285659fdba39406f642aa8"
+    },
+      {
+"image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6c/7d/ca.jpg",
+"name": "Day trip in Giza",
+"description": "Giza Pyramids Day Trip include enter inside the Great Pyramid and Solar boat",
+"itineraryId": "62285659fdba39406f642aa9"
+    },
+      {
+"image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/09/9a/35/30.jpg",
+"name": "Half-Day Tour",
+"description": "Half-Day Tour of the Giza Pyramids and Solar Boat Museum with Lunch and Camel Ride",
+"itineraryId": "62285659fdba39406f642aa9"
+    },
+      {
+"image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/35/95/fb.jpg",
+"name": "Private Half-Day Tour",
+"description": "Private Half-Day Tour to Giza Pyramids & Sphinx Entry Cheops & Camel Ride",
+"itineraryId": "62285659fdba39406f642aa9"
+    }
+
+]);
+

@@ -1,0 +1,100 @@
+.Comment {
+  background-color: aqua;
+  color: black;
+  padding: 1rem;
+}
+.text {
+  display: flex;
+  font-size: 1rem !important;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 1rem;
+  color: black;
+  font-weight: 600;
+}
+.textName {
+  text-align: center;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  font-size: 1.2rem !important;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 2rem;
+  color: black;
+  text-align: center;
+  padding: 0.2rem;
+  font-weight: bold;
+}
+.imguser2 {
+  padding: 0.3rem;
+  width: 4rem;
+  height: 100%;
+  border-radius: 0rem 3rem 3rem 3rem;
+  object-fit: cover;
+}
+.card-user {
+  text-align: center;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  font-size: 1rem !important;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 2rem;
+}
+.Conteinercomment {
+  width: 15rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(121, 121, 121);
+  color: black;
+  border-radius: 0 3rem 3rem 3rem;
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 1rem;
+}
+.ConteinerUsercomment {
+  padding: 1rem;
+  border: 3px black solid;
+}
+.comentarios {
+  background-color: black;
+}
+.cardComments {
+  margin-top: 2rem;
+  background-color: black;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+.card-body {
+  background-color: black;
+}
+.card-header {
+  background-color: black;
+  color: white;
+}
+.text2 {
+  text-align: center;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  font-size: 1.2rem !important;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+.cardmodificable {
+  width: 100%;
+}
+.textComments {
+  margin-bottom: 1rem;
+}
+.btn {
+  border-radius: 1rem;
+  margin-left: 0.7rem;
+}
+.card-text {
+  border-radius: 1rem;
+}

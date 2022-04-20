@@ -1,0 +1,140 @@
+.buttonsocial {
+  padding: 0.5rem;
+}
+
+.panel-heading {
+  padding: 5px 15px;
+}
+.title {
+  text-align: center;
+}
+form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.panel-footer {
+  padding: 1px 15px;
+  color: #a0a0a0;
+}
+.divunselected {
+  display: flex;
+}
+.textselect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.selectcountry {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.text-center {
+  align-items: center;
+}
+form {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+}
+.imgformcountry {
+  margin: 2rem;
+}
+.form-control {
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+}
+.btnform {
+  color: rgb(250, 250, 250);
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 0.4rem;
+  background-color: rgb(15, 90, 34);
+  text-decoration: none !important;
+}
+.btnform:hover {
+  color: rgb(250, 250, 250);
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 0.4rem;
+  background-color: rgb(16, 59, 26);
+  text-decoration: none !important;
+}
+
+.btnformout {
+  color: rgb(250, 250, 250);
+  padding: 0.6rem;
+  margin: 1rem;
+  border-radius: 0.4rem;
+  background-color: rgb(128, 25, 0);
+  text-decoration: none;
+}
+.btn {
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+
+.input-group-text {
+  margin: 1rem;
+}
+
+.styleselect {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.buttonsocial {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border: 0px;
+  border-radius: 10px !important;
+}
+.my-facebook-button-class {
+  background-color: rgb(52, 52, 207);
+  color: white;
+}
+
+.buttonsocial :nth-child(1) {
+  margin-right: 0px !important;
+  width: 45px !important;
+}
+select {
+  width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+select option {
+  width: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

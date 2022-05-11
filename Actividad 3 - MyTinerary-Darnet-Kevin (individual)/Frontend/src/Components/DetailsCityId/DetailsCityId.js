@@ -11,6 +11,8 @@ import "../Styles/itineraryDetails.css";
 import Activities from "./Activities";
 import Comments from "../Comments/Comments";
 import { useSelector } from "react-redux";
+import UnderConstruction from "../UnderConstruction/UnderConstruction";
+import "../../Components/Styles/styles.css";
 
 const DetailsCityId = (props) => {
   /*   console.log(props);
@@ -48,7 +50,7 @@ const DetailsCityId = (props) => {
               <h1 className="card-title">{city.city} </h1>
             </div>
             <div className="d-flex flex-column">
-              {props.itineraries.length ? (
+              {props?.itineraries.length ? (
                 props.itineraries.map((itinerary, index) => (
                   <div className="card2 mb-3 cardDetail2">
                     <div className="ConteinerUser">
@@ -192,11 +194,12 @@ const DetailsCityId = (props) => {
                   </div>
                 ))
               ) : (
-                <div className="notCities">
-                  <h3 className="card-title2">
-                    WE COULD NOT FIND ANY ITINERARY FOR THIS CITY
-                  </h3>
-                </div>
+                <>
+                  <div className="conteinerimgcard-Not">
+                    <img className="imgcard-not" src={city.image} />
+                  </div>
+                  <UnderConstruction />
+                </>
               )}
             </div>
           </div>

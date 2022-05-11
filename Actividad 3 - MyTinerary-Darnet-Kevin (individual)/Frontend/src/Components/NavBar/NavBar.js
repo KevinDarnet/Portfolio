@@ -19,6 +19,7 @@ import userActions from "../Redux/actions/userActions";
 import "../Styles/styles.css";
 
 function ResponsiveAppBar(props) {
+  console.log(props);
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -128,9 +129,9 @@ function ResponsiveAppBar(props) {
 
             <Box sx={{ flexGrow: 0 }}>
               <Tooltip title="Open settings">
-                {props.user ? (
+                {props?.user ? (
                   <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                    <Avatar alt="Remy Sharp" src={props.user.picture} />
+                    <Avatar alt="Remy Sharp" src={props?.user.picture} />
                   </IconButton>
                 ) : (
                   <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>

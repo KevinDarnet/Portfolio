@@ -5,7 +5,9 @@ export default function UnderConstruction() {
   return (
     <div className="divUnderConstruction">
       <div className="contTituloConstruction">
-        <h1 className="titulocities">There are no itineraries</h1>
+        <h1 className="titulocities">
+          WE DO NOT HAVE ANY ITINERARY FOR THIS CITY
+        </h1>
       </div>
       <img className="imgConstruction" src={imgConstruction} />
     </div>
